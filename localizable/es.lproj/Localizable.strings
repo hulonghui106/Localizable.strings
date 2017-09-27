@@ -1,0 +1,23 @@
+/*
+ Localizable.strings
+ AromaClock
+ 
+ Created by admin on 26/7/17.
+ Copyright © 2017年 idt. All rights reserved.
+ */
+//MainController
+"Aurora" = "Aurora";"Energise" = "Cargarse de energía";"Revitalise" = "Revitalizar";"Garden" = "Jardín";"Whale" = "Ballena";"Seashore" = "Costa";"Jungle" = "Selva";"Dawn rain" = "Lluvia al amanecer";"Waterfall" = "Cascada";"Thunder" = "Trueno";"Rain" = "Lluvia";"Tranquility" = "Tranquilidad";"White noise" = "Ruido blanco";"Heavy rain" = "Lluvia intensa";"White rain" = "Lluvia blanca";"Hawaii" = "Hawaii";"Summer" = "Verano";"Meditate" = "Meditar";"Ocean surf" = "Surf en el océano";"Unwind" = "Relajarse";"Good night" = "Buenas noches";"Deep music relief" = "Relajación profunda de los músculos";"Head ease" = "Relajación de la cabeza";"Stress relief" = "Alivio del estrés";"Energetic" = "Enérgico";//ClockSettingController
+
+"AM" = "AM";"PM" = "PM";"Bluetooth disconnected" = "Bluetooth disconnected";"For better experience,it is recommended that the setting time is at least 30 minutes later than the current time" = "For better experience,it is recommended that the setting time is at least 30 minutes later than the current time";"Sunday" = "Domingo";"Monday" = "Lunes";"Tuesday" = "Martes";"Wednesday" = "Miércoles";"Thursday" = "Jueves";"Friday" = "Viernes";"Saturday" = "Sábado";//AromaController
+"Aroma" = "Aroma";"Left" = "Izquierda";"Right" = "Derecha";//SettingController
+"Backlight" = "Luz ambiental";"Time format" = "Formato de la hora";"Date format" = "Formato de la fecha";"Device language" = "Idioma del dispositivo";"Privacy policy" = "Política de privacidad";"Version" = "Versión";"English" = "Inglés";"French" = "Francés";"Italy" = "Italia";"Spanlish" = "Español";"German" = "Alemán";
+//AromaNotesController
+"Sleep" = "Dormir";"Wake" = "Despertar";"Meditation" = "Meditación";"Anti-inflammation" = "Balsámico";"Respiratory" = "Respiratorio";"Mosquito repellent" = "Repelente para mosquitos";"Passion" = "Pasión";"Food smell" = "Olor a comida";"Natural energy" = "Energía natural";"Natural rest" = "Descanso natural";"Natural balance" = "Equilibrio natural";"Lavande naturelle" = "Lavanda natural";"Natural optimist" = "Optimista por naturaleza";"Camomille naturelle" = "Manzanilla natural";
+"Citronella & flowers" = "Flores y citronela";"Citronella & mint" = "Citronela y menta";"Parsley & tomato" = "Tomate y perejil";"Cyrpess & oregano" = "Ciprés y orégano";"Citrus & herbs" = "Hierbas y cítricos";"Out of control" = "Fuera de control";"X" = "X";"Temptation ave" = "Avenida de la Tentación";"Hokkaido lavender" = "Lavanda de Okkaido";//BluetoothManager
+"Turn On Bluetooth to Allow \"Aroma clock\" to Connect to Accessories" = "Activa Bluetooth para permitir que \"Aroma clock\" se conecte a los accesorios";"Settings" = "Ajustes";"Pairing failure,try again?" = "¿Error de sincronización, intente de nuevo?";"Retry" = "reintentar";//Gerneral status
+
+"Stop alarm?" = "Stop alarm?";"Stop" = "Stop";
+"Once" = "Una vez";"Every day" = "Todos los días";//CommandErrorReponseData
+"Please stop alarm,then set new parameter." = "Please stop alarm,then set new parameter.";//AlarmClockController
+"Sleep" = "Dormir";//TimerOrAromaController
+"Biology alarm clock" = "Reloj despertador biológico";
