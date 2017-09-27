@@ -6,25 +6,25 @@ const config = {
     languages: [
         {
             language: 'it', //italy
-            excel_volume: 1,
+            excel_column: 1,
             localizable_string_path: './localizable/it.lproj/Localizable.strings',
             storyboard_string_path: './storyboard/it.lproj/Main.strings',
         },
         {
             language: 'de',
-            excel_volume: 2,
+            excel_column: 2,
             localizable_string_path: './localizable/de.lproj/Localizable.strings',
             storyboard_string_path: './storyboard/de.lproj/Main.strings',
         },
         {
             language: 'fr',
-            excel_volume: 3,
+            excel_column: 3,
             localizable_string_path: './localizable/fr.lproj/Localizable.strings',
             storyboard_string_path: './storyboard/fr.lproj/Main.strings',
         },
         {
             language: 'es',
-            excel_volume: 4,
+            excel_column: 4,
             localizable_string_path: './localizable/es.lproj/Localizable.strings',
             storyboard_string_path: './storyboard/es.lproj/Main.strings',
         },
@@ -40,10 +40,10 @@ parseXlsx(config.excel_path, function (err, data) {
 
         // data is an array of arrays
         for (item of data) {
-            const re =new RegExp(item[0]+'";\\n','g'); // re为/^\d+bl$/gim
-            const replace_string = `${item[language.excel_volume]}";\n`;
+            const re =new RegExp(item[0]+'";\\n','g'); // re
+            const replace_string = `${item[language.excel_column]}";\n`;
 
-            console.log(re,replace_string);
+            //console.log(re,replace_string);
             language.localizable_strings = language.localizable_strings.replace(re, replace_string);
             language.storyboard_strings = language.storyboard_strings.replace(re, replace_string);
         }
