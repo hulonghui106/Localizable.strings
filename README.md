@@ -1,11 +1,9 @@
 # Localizable.strings
-Use the excel document to generate Localizable.string, Localizable.string must exist in the field.
+Use the Excel document to generate Localizable.string, Localizable.string must exist in the field.
 
-# 这段脚依赖(node.js excel), depend Native node.js Excel file parser. Only supports xlsx for now.
+# dowload code 
+Modify the path in the code const config.
 
-npm install excel
-
-# dowload code
 
 # run now
 node ./test.js
