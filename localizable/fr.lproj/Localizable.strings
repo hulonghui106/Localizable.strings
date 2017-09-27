@@ -13,17 +13,122 @@
  Copyright © 2017年 idt. All rights reserved.
  */
 //MainController
-"Aurora" = "Aurore";"Energise" = "Revigorant";"Revitalise" = "Revitaliser";"Garden" = "Jardin ";"Whale" = "Baleine";"Seashore" = "Rivage ";"Jungle" = "Jungle ";"Dawn rain" = "Pluie de l’aube";"Waterfall" = "Cascade";"Thunder" = "Tonnerre";"Rain" = "Pluie";"Tranquility" = "Tranquillité";"White noise" = "Bruit blanc";"Heavy rain" = "Pluie forte ";"White rain" = "Pluie blanche ";"Hawaii" = "Hawaï ";"Summer" = "Été";"Meditate" = "Méditer";"Ocean surf" = "Surf Océan";"Unwind" = "Relaxer";"Good night" = "Bonne nuit";"Deep music relief" = "Soulagement musculaire profond";"Head ease" = "Soulagement de la tête";"Stress relief" = "Soulagement du stress";"Energetic" = "Énergétique";//ClockSettingController
+"Aurora" = "Aurore3";
+"Energise" = "Revigorant";
+"Revitalise" = "Revitaliser";
+"Garden" = "Jardin ";
 
-"AM" = "am";"PM" = "pm";"Bluetooth disconnected" = "Bluetooth disconnected";"For better experience,it is recommended that the setting time is at least 30 minutes later than the current time" = "For better experience,it is recommended that the setting time is at least 30 minutes later than the current time";"Sunday" = "Dimanche";"Monday" = "Lundi";"Tuesday" = "Mardi";"Wednesday" = "Mercredi";"Thursday" = "Jeudi";"Friday" = "Vendredi";"Saturday" = "Samedi";//AromaController
-"Aroma" = "Arôme";"Left" = "Gauche";"Right" = "Droite";//SettingController
-"Backlight" = "Rétroéclairage";"Time format" = "Format de l'heure";"Date format" = "Format de la date";"Device language" = "Langue de l'appareil";"Privacy policy" = "Politique de protection de la vie privée";"Version" = "Version";"English" = "Anglais";"French" = "Français";"Italy" = "Italien";"Spanlish" = "Espagnol";"German" = "Allemand";
+"Whale" = "Baleine";
+"Seashore" = "Rivage ";
+"Jungle" = "Jungle ";
+"Dawn rain" = "Pluie de l’aube";
+
+"Waterfall" = "Cascade";
+"Thunder" = "Tonnerre";
+"Rain" = "Pluie";
+"Tranquility" = "Tranquillité";
+
+"White noise" = "Bruit blanc";
+"Heavy rain" = "Pluie forte ";
+"White rain" = "Pluie blanche ";
+"Hawaii" = "Hawaï ";
+
+"Summer" = "Été";
+"Meditate" = "Méditer";
+"Ocean surf" = "Surf Océan";
+"Unwind" = "Relaxer";
+
+"Good night" = "Bonne nuit";
+"Deep muscle relief" = "Deep music relief";
+"Head ease" = "Soulagement de la tête";
+"Stress relief" = "Soulagement du stress";
+"Energetic" = "Énergétique";
+
+//ClockSettingController
+
+"AM" = "am";
+"PM" = "pm";
+"Bluetooth disconnected" = "Bluetooth disconnected";
+"For better experience,it is recommended that the setting time is at least 10 minutes later than the current time" = "Pour une meilleure expérience, il est recommandé de fixer l'heure d'activation 10 minutes minimum après l'heure de programmation";
+
+"Sunday" = "Dimanche";
+"Monday" = "Lundi";
+"Tuesday" = "Mardi";
+"Wednesday" = "Mercredi";
+"Thursday" = "Jeudi";
+"Friday" = "Vendredi";
+"Saturday" = "Samedi";
+
+//AromaController
+"Aroma" = "Arôme";
+"Left" = "Gauche";
+"Right" = "Droite";
+
+//SettingController
+"Backlight" = "Rétroéclairage";
+"Time format" = "Format de l'heure";
+"Date format" = "Format de la date";
+"Device language" = "Langue de l'appareil";
+"Privacy policy" = "Politique de protection de la vie privée";
+"Version" = "Version";
+
+"English" = "Anglais";
+"French" = "Français";
+"Italy" = "Italien";
+"Spanlish" = "Espagnol";
+"German" = "Allemand";
+
+
 //AromaNotesController
-"Sleep" = "Sommeil";"Wake" = "Réveil";"Meditation" = "Méditation";"Anti-inflammation" = "Balsamique";"Respiratory" = "Respiratoire";"Mosquito repellent" = "Anti-moustiques";"Passion" = "Passion";"Food smell" = "Odeur de nourriture";"Natural energy" = "Énergie naturelle";"Natural rest" = "Repos naturel";"Natural balance" = "Équilibre naturel";"Lavande naturelle" = "Lavande naturelle";"Natural optimist" = "Optimiste naturel";"Camomille naturelle" = "Camomille naturelle";"Citronella & flowers" = "Citronnelle & fleurs";"Citronella & mint" = "Citronnelle & menthe";"Parsley & tomato" = "Persil & tomate";"Cyrpess & oregano" = "Cyprès & origan";"Citrus & herbs" = "Agrumes & herbes";"Out of control" = "Hors de contrôle";"X" = "X";"Temptation ave" = "Avenue de la tentation";"Hokkaido lavender" = "Lavende d'Hokkaido";//BluetoothManager
-"Turn On Bluetooth to Allow \"Aroma clock\" to Connect to Accessories" = "Activez Bluetooth pour permettre à \<< Aroma clock \>> de se connecter aux accessoires.";"Settings" = "Réglages";"Pairing failure,try again?" = "Erreur de jumelage, essayer à nouveau ?";"Retry" = "Réessayer";//Gerneral status
+"Sleep" = "Sommeil";
+"Wake" = "Réveil";
+"Meditation" = "Méditation";
+"Anti-inflammation" = "Anti-inflammation";
+"Respiratory" = "Respiratoire";
+"Mosquito repellent" = "Mosquito repellent";
+"Passion" = "Passion";
+"Food smell" = "Odeur de nourriture";
 
-"Stop alarm?" = "Stop alarm?";"Stop" = "Stop";
-"Once" = "Une fois";"Every day" = "Tous les jours";//CommandErrorReponseData
-"Please stop alarm,then set new parameter." = "Please stop alarm,then set new parameter.";//AlarmClockController
-"Sleep" = "Sommeil";//TimerOrAromaController
+"Natural energy" = "Énergie naturelle";
+"Natural rest" = "Repos naturel";
+"Natural balance" = "Équilibre naturel";
+
+"Lavande naturelle" = "Lavande naturelle";
+"Natural optimist" = "Optimiste naturel";
+"Camomille naturelle" = "Camomille naturelle";
+
+
+"Citronella & flowers" = "Citronnelle & fleurs";
+"Citronella & mint" = "Citronnelle & menthe";
+"Parsley & tomato" = "Persil & tomate";
+
+"Cyrpess & oregano" = "Cyprès & origan";
+"Citrus & herbs" = "Agrumes & herbes";
+"Out of control" = "Hors de contrôle";
+"X" = "X";
+"Temptation ave" = "Avenue de la tentation";
+"Hokkaido lavender" = "Lavende d'Hokkaido";
+
+//BluetoothManager
+"Turn On Bluetooth to Allow \"Aroma clock\" to Connect to Accessories" = "Activez Bluetooth pour permettre à \<< Aroma clock \>> de se connecter aux accessoires.";
+"Settings" = "Réglages";
+
+"Pairing failure,try again?" = "Pairing failure,try again?";
+"Retry" = "Réessayer";
+
+//Gerneral status
+
+"Stop alarm?" = "Stop alarm?";
+"Stop" = "Stop";
+
+
+"Once" = "Une fois";
+"Every day" = "Tous les jours";
+
+//CommandErrorReponseData
+"Please stop alarm,then set new parameter." = "Please stop alarm,then set new parameter.";
+
+//AlarmClockController
+"Sleep" = "Sommeil";
+//TimerOrAromaController
 "Biology alarm clock" = "Réveil selon le rythme biologique";
